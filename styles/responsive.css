@@ -1,0 +1,351 @@
+@media screen and (max-width:1422px){
+    .website{
+        width: 100%;
+    }
+    .works{
+        
+        display: flex;
+       flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+    }
+    .img{
+        margin: 15px 7.5px;
+        width: 40%;
+    }
+
+    .features{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 60px 150px;
+
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: auto;
+    }
+    .box i{
+        font-size: 37px;
+    }
+    .box h4{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:1211px){
+    .website{
+        width: 100%;
+        
+    }
+    .team{
+        padding: 65px 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .profile{
+        width: 350px;
+        margin: 30px 30px;
+    }
+    .profile_img{
+        width: 350px;
+    }
+
+
+
+    .img{
+        margin: 10px 5px;
+
+    }
+    .navbar{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .text h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+    .share{
+        margin-right: 60px;
+        margin-left: 150px;
+    }
+    .testimon_info h2{
+        width: fit-content;
+        font-size: 26px;
+
+
+    }
+
+
+}
+
+@media  screen and (max-width:993px) {
+
+    .website{
+        width: 100%;
+    }
+    .features{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 30px 75px;
+
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        height: auto;
+    }
+    .box i{
+        font-size: 27px;
+    }
+    .box h4{
+        margin-top: 18px;
+    }
+    .img{
+        margin: 5 2.5px;
+    }
+
+    .share{
+        margin-right: 30px;
+        margin-left: 75px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:759px){
+    .website{
+        width: 100%;
+    }
+
+    .footer_info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .share{
+        margin: 10px 0;
+    }
+
+
+
+    .features{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 20px;
+
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        height: auto;
+    }
+    .box i{
+        font-size: 27px;
+    }
+    .box h4{
+        margin-top: 18px;
+    }
+    .img{
+        height: 275px;
+    }
+
+
+    .text h1{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    .text p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .navbar ul li{
+        height: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    
+    
+    }
+
+    .testimon{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .testimon_info{
+        width: 100%;
+
+    }
+    .testimon_img{
+        width: 100%;
+    }
+
+    .download h3{
+    
+        font-family: Raleway;
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 300;
+        color: #2d3033;
+    }
+    .download p{
+        margin-top: 16px;
+        font-family: Raleway;
+        font-size: 8px;
+        line-height: 21px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2d3033;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width:512px){
+
+    .website{
+        width: 100%;
+
+    }
+    .navbar{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        justify-content: center;
+    
+    }
+    .navbar ul li{
+        background-color:rgba(17, 17, 17, 0.596);
+        border-radius: 5px;
+        border: 1px solid #fff;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text h1{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .text p{
+        margin: 15px 30px;
+        text-align: center;
+        
+        font-size: 10px;
+    }
+
+    .img{
+        height: 210px;
+    }
+    .profile{
+        width: 270px;
+        margin: 20px 20px;
+        
+    }
+    .profile_img{
+        width: 270px;
+    }
+
+    .testimon_img{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .testimon_info h2{
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:400px){
+
+    .website{
+        width: 100%;
+        
+    }
+
+    .navbar{
+        padding-top: 15px;
+    }
+    .footer_info{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    .img{
+        height: 170px;
+    }
+
+    .profile{
+        width: 240px;
+        margin: 20px 20px;
+        
+    }
+    .profile_img{
+        width: 240px;
+    }
+
+
+}
